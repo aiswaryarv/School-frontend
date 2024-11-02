@@ -1,0 +1,6 @@
+<!-- user-profile.component.html -->
+<div class="profile-container">
+    <h2>Welcome, {{ user.name }}!</h2>
+    <app-my-profile [user]="user" (updateProfile)="onProfileUpdate($event)"></app-my-profile>
+  </div>
+  

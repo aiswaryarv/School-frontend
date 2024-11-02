@@ -1,0 +1,33 @@
+.home-content {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px; /* Center the content */
+  }
+  
+  .announcement,
+  .highlights {
+    background-color: #f9f9f9; /* Light background for sections */
+    border: 1px solid #ddd; /* Light border for sections */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    margin-bottom: 20px; /* Space between sections */
+  }
+  
+  h2 {
+    color: #333; /* Darker color for headings */
+  }
+  
+  .learn-more-btn {
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  

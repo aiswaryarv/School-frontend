@@ -1,0 +1,25 @@
+   <div class="my-profile">
+    <div *ngIf="!editMode">
+      <p><strong>Name:</strong> {{ user.name }}</p>
+      <p><strong>Email:</strong> {{ user.email }}</p>
+      <p><strong>Bio:</strong> {{ user.bio }}</p>
+      <button (click)="enableEdit()">Edit Profile</button>
+    </div>
+  
+    <div *ngIf="editMode">
+      <label>
+        Name:
+        <input [(ngModel)]="updatedUser.name">
+      </label>
+      <label>
+        Email:
+        <input [(ngModel)]="updatedUser.email">
+      </label>
+      <label>
+        Bio:
+        <input [(ngModel)]="updatedUser.bio"> <!-- No optional chaining here -->
+      </label>
+      <button (click)="saveChanges()">Save</button>
+    </div>
+  </div>
+  

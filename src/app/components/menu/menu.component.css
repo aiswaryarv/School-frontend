@@ -1,0 +1,33 @@
+/* menu.component.css */
+.menu {
+  width: 200px; /* Adjust width as needed */
+  background-color: #f4f4f4; /* Light gray background */
+  padding: 10px;
+  border-right: 1px solid #ccc; /* Right border for separation */
+}
+
+.menu ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove default padding */
+}
+
+.menu li {
+  margin: 10px 0; /* Space between items */
+}
+
+.menu a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Dark text color */
+  display: block; /* Make the link cover the entire list item */
+  padding: 8px; /* Padding for better click area */
+  border-radius: 4px; /* Slightly rounded corners */
+}
+
+.menu a:hover {
+  background-color: #ddd; /* Change background on hover */
+}
+
+.menu a.active {
+  background-color: #007bff; /* Highlight active link */
+  color: white; /* Change text color for active link */
+}
