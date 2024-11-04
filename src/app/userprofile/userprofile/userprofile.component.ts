@@ -15,7 +15,9 @@ export class UserProfileComponent {
   user = {
     name: 'Aiswarya',
     email: 'aiswarya@example.com',
-    bio: 'Software Developer at XYZ Company'
+    bio: 'Software Developer at XYZ Company',
+    imageUrl: 'assets/images/profile.jpeg' // Image path in assets folder
+
   };
 
   onProfileUpdate(updatedData: any) {

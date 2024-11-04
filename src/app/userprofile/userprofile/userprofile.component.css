@@ -1,11 +1,13 @@
 /* user-profile.component.css */
 .profile-container {
-    padding: 20px;
+    padding: 43px;
     border: 1px solid #ccc;
     border-radius: 8px;
     max-width: 400px;
     margin: 20px auto;
     background-color: #f9f9f9;
+    margin-left: 160px;
+    margin-bottom: 99px;
   }
   
   h2 {

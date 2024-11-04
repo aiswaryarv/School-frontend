@@ -1,0 +1,57 @@
+/* my-profile.component.css */
+
+.my-profile {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center align content */
+  }
+  
+  .profile-image {
+    width: 100px; /* Set the width */
+    height: 100px; /* Set the height */
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Ensure it fits within the dimensions */
+    margin-bottom: 15px;
+  }
+  
+  .my-profile p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .my-profile label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #555;
+    text-align: left;
+  }
+  
+  .my-profile input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .my-profile button {
+    padding: 10px 15px;
+    margin-top: 15px;
+    background-color: #007bff; /* Blue color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .my-profile button:hover {
+    background-color: #0056b3;
+  }
+  
